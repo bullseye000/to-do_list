@@ -1,0 +1,102 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.container.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container.light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: inherit;
+  border: 2px solid #00bcd4;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+input {
+  margin: 8px 0;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px 18px;
+  margin-top: 10px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  padding: 14px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
